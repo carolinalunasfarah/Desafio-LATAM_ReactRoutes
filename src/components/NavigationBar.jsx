@@ -13,6 +13,11 @@ const NavigationBar = () => {
                     className="text-black ms-3 text-decoration-none">
                     📃 Contact
                 </Link>
+                <Link
+                    to="/catalogue"
+                    className="text-black ms-3 text-decoration-none">
+                    📷 Catalogue
+                </Link>
                 <Navbar.Brand>Happy cake 🍰</Navbar.Brand>
             </Container>
         </Navbar>
