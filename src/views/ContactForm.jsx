@@ -10,10 +10,13 @@ const ContactForm = () => {
                         <p>Email</p>
                         <input
                             type="email"
-                            placeholder="Enter your mail here"
+                            placeholder="Enter your email here"
                         />
                         <p>Description</p>
-                        <input className="formDescription" type="text" />
+                        <input
+                        className="formDescription"
+                            type="text"
+                        />
                     </form>
                 </div>
             </section>

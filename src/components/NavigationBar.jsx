@@ -3,16 +3,16 @@ import { Link } from "react-router-dom";
 
 const NavigationBar = () => {
     return (
-        <Navbar bg="warning" className="navBar">
+        <Navbar className="navBar">
             <section className="navigation">
                 <Link to="/" className="navLink">
-                    Home
+                    🏠 Home
                 </Link>
                 <Link to="/catalogue" className="navLink">
-                    Catalogue
+                    📷 Catalogue
                 </Link>
                 <Link to="/contact" className="navLink">
-                    Contact
+                    💌 Contact
                 </Link>
             </section>
             <section className="navBrandContainer">

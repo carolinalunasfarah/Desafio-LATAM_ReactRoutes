@@ -1,10 +1,13 @@
-import { Container } from "react-bootstrap";
+import notFound from "../assets/img/notFound.svg";
 
 const NotFound = () => {
-  return (
-    <Container className="pt-5">
-      <h1 className="mb-4">La ruta que intentas consultar no existe :/</h1>
-    </Container>
-  );
+    return (
+        <section className="homePage">
+            <h3 className="notFound">
+                💔 The page you are looking for doesn't exist 💔
+            </h3>
+            <img className="notFoundImg" src={notFound} alt="Sad fake draw" />
+        </section>
+    );
 };
 export default NotFound;
