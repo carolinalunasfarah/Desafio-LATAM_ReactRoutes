@@ -3,3 +3,87 @@
     text-align: center;
 }
 
+/* Navigation */
+.navBar {
+    color: rgba(161, 3, 148);
+    height: 3rem;
+    display: flex;
+}
+.navigation {
+    width: 30rem;
+    display: flex;
+    justify-content: space-around;
+}
+.navLink {
+    text-decoration: none;
+    color: rgba(161, 3, 148);
+    font-weight: bolder;
+}
+.navBrandContainer {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+}
+.navBrand {
+    color: rgba(161, 3, 148);
+}
+
+/* Home Page */
+.homePage {
+    height: 100vh;
+    background-image: url(./assets/img/happyCake.jpg);
+    background-position: center;
+    background-size: cover;
+    color: rgba(161, 3, 148);
+}
+.homePageText {
+    padding-top: 15rem;
+}
+.homePage h1 {
+    padding-bottom: 1rem;
+}
+
+/* Contact */
+.contactPage {
+    padding-top: 5rem;
+}
+input {
+    width: 20rem;
+}
+.contactPage p {
+    font-size: 20px;
+    margin-top: 2rem;
+}
+.formDescription {
+    height: 5rem;
+}
+
+.carouselContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+.carouselContainer h3 {
+    background-color: rgba(255, 255, 0, 0.8);
+    border-radius: 1rem;
+    color: black;
+}
+
+.carouselCaption {
+    padding: 5rem;
+}
+
+.carouselItem {
+    height: 25rem;
+}
+
+.carouselImg {
+    width: 50%;
+}
+
+.carousel-indicators {
+    background-color: rgba(161, 3, 148, 0.8);
+    border-radius: 1rem;
+}

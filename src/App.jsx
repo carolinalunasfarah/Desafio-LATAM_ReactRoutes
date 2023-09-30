@@ -15,8 +15,8 @@ function App() {
                 <NavigationBar />
                 <Routes>
                     <Route path="/" element={<HomePage />} />
-                    <Route path="/contact" element={<ContactForm />} />
                     <Route path="/catalogue" element={<Catalogue />} />
+                    <Route path="/contact" element={<ContactForm />} />
                     <Route path="*" element={<NotFound />} />
                 </Routes>
             </main>
