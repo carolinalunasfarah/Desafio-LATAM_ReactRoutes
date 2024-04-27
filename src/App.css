@@ -34,7 +34,7 @@
 /* Home Page */
 .homePage {
     height: 100vh;
-    background-image: url(./assets/img/happyCake.jpg);
+    background-image: url(/assets/img/happyCake.jpg);
     background-position: center;
     background-size: cover;
     color: rgba(161, 3, 148);
