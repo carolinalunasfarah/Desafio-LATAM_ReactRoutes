@@ -1,15 +1,15 @@
 import Carousel from "react-bootstrap/Carousel";
 // images
-import cake1 from "../assets/img/1cake.jpg";
-import cake2 from "../assets/img/2cake.jpg";
-import cake3 from "../assets/img/3cake.jpg";
-import cake4 from "../assets/img/4cake.jpg";
-import cake5 from "../assets/img/5cake.jpg";
-import cake6 from "../assets/img/6cake.jpg";
-import cake7 from "../assets/img/7cake.jpg";
-import cake8 from "../assets/img/8cake.jpg";
-import cake9 from "../assets/img/9cake.jpg";
-import cake10 from "../assets/img/10cake.jpg";
+import cake1 from "/assets/img/1cake.jpg";
+import cake2 from "/assets/img/2cake.jpg";
+import cake3 from "/assets/img/3cake.jpg";
+import cake4 from "/assets/img/4cake.jpg";
+import cake5 from "/assets/img/5cake.jpg";
+import cake6 from "/assets/img/6cake.jpg";
+import cake7 from "/assets/img/7cake.jpg";
+import cake8 from "/assets/img/8cake.jpg";
+import cake9 from "/assets/img/9cake.jpg";
+import cake10 from "/assets/img/10cake.jpg";
 
 function UncontrolledExample() {
     return (
